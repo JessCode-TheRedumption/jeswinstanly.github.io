@@ -138,8 +138,7 @@ export const experience = [
 
 export const timeline = [
   { year: '2021–2024', label: 'B.Sc. Physics', detail: 'Sahrdaya College of Advanced Studies — First Class' },
-  { year: '2024', label: 'MCA begins', detail: 'University of Calicut' },
-  { year: '2026', label: 'MCA completed', detail: 'First Class with Distinction' },
+  { year: '2024–2026', label: 'MCA', detail: 'University of Calicut — First Class with Distinction' },
   { year: 'Jun 2026', label: 'Joined Aptivora', detail: 'Software Developer Trainee — Full Time' },
   { year: 'Jul 2026', label: 'Joined Woxro', detail: 'Techno-Functional Consultant Trainee' },
   { year: '2026', label: 'Learning Business Central', detail: 'AL development track' },

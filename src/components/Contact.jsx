@@ -87,8 +87,9 @@ export default function Contact() {
             <div className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl glass border border-white/10">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               <span className="font-mono text-sm text-muted">
-                Available for <span className="text-white font-medium">Business Central</span> &{' '}
-                <span className="text-white font-medium">Backend Engineering</span> engagements
+                Currently focused on <span className="text-white font-medium">Business Central</span> &{' '}
+                <span className="text-white font-medium">Backend Engineering</span>
+
               </span>
             </div>
           </div>

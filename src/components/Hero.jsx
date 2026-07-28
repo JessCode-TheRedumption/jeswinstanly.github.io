@@ -128,7 +128,7 @@ export default function Hero() {
             <motion.div variants={staggerItem} className="mb-8">
               <span className="inline-flex items-center gap-2.5 font-mono text-[11px] tracking-widest uppercase text-cyan border border-cyan/25 rounded-full px-4 py-1.5 glass animate-border-glow">
                 <span className="w-1.5 h-1.5 rounded-full bg-cyan animate-pulse" />
-                Trainee · Accepting new engagements
+                Currently building systems at Woxro Technology
               </span>
             </motion.div>
 
