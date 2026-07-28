@@ -116,7 +116,7 @@ export default function Hero() {
 
       {/* ─── Content ─── */}
       <div className="relative w-full max-w-screen-2xl mx-auto px-6 lg:px-16 pt-36 pb-24">
-        <div className="grid lg:grid-cols-[1fr_420px] xl:grid-cols-[1fr_480px] gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 xl:gap-20 items-center">
 
           {/* Left — text */}
           <motion.div
@@ -156,7 +156,7 @@ export default function Hero() {
 
             {/* Summary */}
             <motion.p variants={staggerItem}
-              className="mt-6 max-w-[540px] text-muted text-base md:text-[17px] leading-[1.8]">
+              className="mt-6 max-w-[600px] text-muted text-base md:text-[17px] leading-[1.8]">
               {profile.summary}
             </motion.p>
 
@@ -230,19 +230,19 @@ export default function Hero() {
             initial={{ opacity: 0, x: 50, scale: 0.95 }}
             animate={booted ? { opacity: 1, x: 0, scale: 1 } : {}}
             transition={{ duration: 1.1, delay: 0.35, ease: [0.21, 0.47, 0.32, 0.98] }}
-            className="hidden lg:flex items-center justify-center"
+            className="hidden lg:flex items-center justify-center w-full"
           >
-            <div className="relative w-full max-w-[420px]">
+            <div className="relative w-full max-w-[560px]">
               {/* Glow behind */}
               <div className="absolute inset-0 rounded-[40px] opacity-10 blur-3xl pointer-events-none animate-orb"
                 style={{ background: 'linear-gradient(135deg, #E3A83B, #4FD1C5)' }} />
               
-              <div className="glass-strong rounded-3xl p-10 shadow-2xl shadow-black/40 border border-white/10 relative z-10 flex flex-col gap-8">
-                <p className="font-display text-3xl text-white font-semibold leading-snug">
+              <div className="glass-strong rounded-[2rem] p-12 lg:p-14 shadow-2xl shadow-black/40 border border-white/10 relative z-10 flex flex-col gap-8">
+                <p className="font-display text-4xl lg:text-5xl text-white font-bold leading-[1.2]">
                   "Dreams don't work unless you do."
                 </p>
-                <div className="h-px w-16 bg-gradient-to-r from-gold to-transparent" />
-                <p className="font-mono text-[13px] text-muted leading-relaxed uppercase tracking-wide">
+                <div className="h-1.5 w-16 bg-gradient-to-r from-gold to-cyan rounded-full" />
+                <p className="font-mono text-sm text-muted leading-[1.8] uppercase tracking-wide">
                   Building enterprise-grade systems demands more than just code. It requires relentless problem-solving, late nights, and a commitment to engineering excellence that holds up under pressure.
                 </p>
               </div>
