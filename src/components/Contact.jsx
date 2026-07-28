@@ -33,16 +33,15 @@ export default function Contact() {
               <div className="h-px w-20 bg-gradient-to-l from-transparent to-cyan/50" />
             </div>
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Open a New
+              Let's
               <br />
               <span className="text-transparent bg-clip-text"
                 style={{ backgroundImage: 'linear-gradient(135deg, #4FD1C5, #E3A83B)' }}>
-                Engagement
+                Connect
               </span>
             </h2>
             <p className="mt-6 max-w-lg mx-auto text-muted text-lg leading-relaxed">
-              Currently consulting on Business Central implementations, open to backend engineering 
-              and techno-functional work. Reach out directly —{' '}
+              Feel free to reach out to discuss technology, business central implementations, or backend engineering directly —{' '}
               <a href={`tel:${profile.phone}`} className="text-cyan hover:text-white transition-colors">
                 {profile.phone}
               </a>

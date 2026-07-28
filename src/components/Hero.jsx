@@ -223,7 +223,7 @@ export default function Hero() {
             </motion.dl>
           </motion.div>
 
-          {/* Right — profile card */}
+          {/* Right — Quotes block */}
           <motion.div
             ref={cardRef}
             style={{ x: cardX, y: cardY }}
@@ -232,31 +232,20 @@ export default function Hero() {
             transition={{ duration: 1.1, delay: 0.35, ease: [0.21, 0.47, 0.32, 0.98] }}
             className="hidden lg:flex items-center justify-center"
           >
-            <div className="relative w-full max-w-[380px]">
-
-              {/* Glow ring behind card */}
-              <div className="absolute inset-[-20px] rounded-[40px] opacity-20 blur-2xl pointer-events-none animate-orb"
-                style={{ background: 'linear-gradient(135deg, #4FD1C5, #E3A83B)' }} />
-
-              {/* Main card */}
-              <motion.div
-                className="glass-strong rounded-3xl p-1 shadow-2xl shadow-black/40 relative z-10"
-              >
-                <div className="rounded-[22px] overflow-hidden aspect-[3/4] relative"
-                  style={{ background: 'linear-gradient(145deg, #0D1526, #111D35)' }}>
-                  <img
-                    src="/about_visual.png"
-                    alt="Hero Visual"
-                    className="w-full h-full object-cover"
-                    style={{ opacity: 0.85 }}
-                  />
-                  {/* Bottom overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-6"
-                    style={{ background: 'linear-gradient(to top, rgba(6,9,16,0.98) 0%, rgba(6,9,16,0.4) 60%, transparent 100%)' }}>
-                    <p className="font-display text-2xl font-bold text-white">{profile.name}</p>
-                  </div>
-                </div>
-              </motion.div>
+            <div className="relative w-full max-w-[420px]">
+              {/* Glow behind */}
+              <div className="absolute inset-0 rounded-[40px] opacity-10 blur-3xl pointer-events-none animate-orb"
+                style={{ background: 'linear-gradient(135deg, #E3A83B, #4FD1C5)' }} />
+              
+              <div className="glass-strong rounded-3xl p-10 shadow-2xl shadow-black/40 border border-white/10 relative z-10 flex flex-col gap-8">
+                <p className="font-display text-3xl text-white font-semibold leading-snug">
+                  "Dreams don't work unless you do."
+                </p>
+                <div className="h-px w-16 bg-gradient-to-r from-gold to-transparent" />
+                <p className="font-mono text-[13px] text-muted leading-relaxed uppercase tracking-wide">
+                  Building enterprise-grade systems demands more than just code. It requires relentless problem-solving, late nights, and a commitment to engineering excellence that holds up under pressure.
+                </p>
+              </div>
             </div>
           </motion.div>
         </div>
