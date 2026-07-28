@@ -122,14 +122,14 @@ export const experience = [
     company: 'Aptivora Global Solutions',
     role: 'Software Developer Trainee',
     period: 'Jun 2026 — Jul 2026',
-    location: 'Remote',
-    type: '2-Month Internship',
-    description: 'Served as a software developer trainee focusing on full-stack development. Spearheaded the integration of machine learning capabilities into modern web applications using cutting-edge tools and frameworks.',
+    location: 'Onsite',
+    type: 'Full Time',
+    description: 'Worked on full-stack projects with AI and ML integrations. Django, Python, and REST APIs were the main focus, along with model deployment and scripting.',
     highlights: [
       'Developed and shipped full-stack projects from scratch to deployment',
       'Integrated Machine Learning models into applications using the Gemini SDK',
-      'Containerized applications using Docker for consistent cross-environment deployments',
-      'Gained practical experience in modern software architecture and agile workflows'
+      'Built scalable backends using Django, Python, and REST APIs',
+      'Handled model deployment and automated tasks with Python scripting'
     ],
     logo: '🌐',
     color: '#4FD1C5',
@@ -140,7 +140,7 @@ export const timeline = [
   { year: '2021–2024', label: 'B.Sc. Physics', detail: 'Sahrdaya College of Advanced Studies — First Class' },
   { year: '2024', label: 'MCA begins', detail: 'University of Calicut' },
   { year: '2026', label: 'MCA completed', detail: 'First Class with Distinction' },
-  { year: 'Jun 2026', label: 'Joined Aptivora', detail: 'Software Consultant Intern — 2-month engagement' },
+  { year: 'Jun 2026', label: 'Joined Aptivora', detail: 'Software Developer Trainee — Full Time' },
   { year: 'Jul 2026', label: 'Joined Woxro', detail: 'Techno-Functional Consultant Trainee' },
   { year: '2026', label: 'Learning Business Central', detail: 'AL development track' },
   { year: 'In progress', label: 'MB-800', detail: 'Business Central Functional Consultant exam' },
