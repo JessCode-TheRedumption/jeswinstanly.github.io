@@ -6,6 +6,7 @@ import { FiArrowUpRight, FiGithub, FiClock, FiCheckCircle, FiCircle } from 'reac
 
 const statusConfig = {
   Posted: { label: 'Complete', icon: <FiCheckCircle size={12} />, color: '#4FD1C5' },
+  Shipped: { label: 'Shipped', icon: <FiCheckCircle size={12} />, color: '#4FD1C5' },
   'In Process': { label: 'Active', icon: <FiClock size={12} />, color: '#E3A83B' },
   Open: { label: 'Queued', icon: <FiCircle size={12} />, color: '#7A8499' },
 }
