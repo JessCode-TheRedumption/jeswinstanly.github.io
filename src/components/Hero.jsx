@@ -251,40 +251,12 @@ export default function Hero() {
                     style={{ opacity: 0.85 }}
                   />
                   {/* Bottom overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-5"
-                    style={{ background: 'linear-gradient(to top, rgba(6,9,16,0.98) 0%, rgba(6,9,16,0.5) 50%, transparent 100%)' }}>
-                    <p className="font-display text-lg font-bold text-white">{profile.name}</p>
-                    <p className="font-mono text-[11px] text-cyan mt-0.5 leading-snug">
-                      Techno-Functional Consultant Trainee
-                    </p>
-                    <div className="flex items-center gap-2 mt-2.5">
-                      <motion.span
-                        className="w-2 h-2 rounded-full bg-emerald-400"
-                        animate={{ scale: [1, 1.4, 1], opacity: [0.7, 1, 0.7] }}
-                        transition={{ duration: 1.8, repeat: Infinity }}
-                      />
-                      <span className="font-mono text-[10px] text-muted uppercase tracking-wider">Open to Work</span>
-                    </div>
+                  <div className="absolute bottom-0 left-0 right-0 p-6"
+                    style={{ background: 'linear-gradient(to top, rgba(6,9,16,0.98) 0%, rgba(6,9,16,0.4) 60%, transparent 100%)' }}>
+                    <p className="font-display text-2xl font-bold text-white">{profile.name}</p>
                   </div>
                 </div>
               </motion.div>
-
-              {/* Floating badge — Woxro */}
-              <div className="absolute -top-5 -right-4 glass-strong rounded-2xl px-4 py-2.5 shadow-xl border border-gold/20 z-20">
-                <p className="font-mono text-[9px] text-muted uppercase tracking-wider">Currently at</p>
-                <p className="font-display text-sm font-bold text-gold mt-0.5">Woxro Technology</p>
-              </div>
-
-              {/* Floating badge — BC */}
-              <div className="absolute -bottom-3 -left-4 glass-strong rounded-2xl px-4 py-2.5 shadow-xl border border-cyan/20 z-20">
-                <p className="font-mono text-[9px] text-muted uppercase tracking-wider">Learning</p>
-                <p className="font-display text-sm font-bold text-cyan mt-0.5">Business Central</p>
-              </div>
-
-              {/* Floating mini pill — LeetCode */}
-              <div className="absolute top-1/2 -right-12 glass rounded-xl px-3 py-1.5 shadow-lg border border-white/10 z-20">
-                <p className="font-mono text-[10px] text-gold font-bold">🔥 160+ days</p>
-              </div>
             </div>
           </motion.div>
         </div>

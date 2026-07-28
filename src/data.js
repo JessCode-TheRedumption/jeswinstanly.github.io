@@ -57,8 +57,8 @@ export const projects = [
   {
     code: 'DOC-03',
     title: 'Insightful.AI',
-    period: '2026 — Present',
-    status: 'In Process',
+    period: 'July 2026',
+    status: 'Shipped',
     stack: ['Django', 'React', 'Gemini API', 'WebSockets', 'Celery'],
     description:
       'A career-preparation platform built module by module: IELTS and BEC listening pipelines with checkpointed audio generation, an AI mock-interview flow on the Gemini Live API, a coding arena, and a proctored assessment engine with anti-cheat auditing.',
@@ -68,8 +68,8 @@ export const projects = [
   {
     code: 'DOC-02',
     title: 'SkillForgeX',
-    period: 'Feb 2026 — Present',
-    status: 'Posted',
+    period: 'July 1, 2026',
+    status: 'Shipped',
     stack: ['Django', 'REST API', 'Redis', 'Docker'],
     description:
       'A full-stack EdTech platform for student learning workflows — interview management, grading, and team formation, with Redis caching cutting response times by 40% and a containerized deployment for stable uptime under traffic.',
