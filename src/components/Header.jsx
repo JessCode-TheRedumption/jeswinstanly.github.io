@@ -39,17 +39,7 @@ export default function Header({ theme, toggleTheme }) {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      {/* Top status bar */}
-      <div className={`transition-all duration-300 ${scrolled ? 'h-0 overflow-hidden opacity-0' : 'h-8 opacity-100'} bg-surface2 dark:bg-surface2 border-b border-line`}>
-        <div className="w-full px-6 h-8 flex items-center justify-between font-mono text-[10px] tracking-wide text-muted">
-          <div className="flex items-center gap-2 truncate">
-            <span className="inline-block w-1.5 h-1.5 rounded-full bg-cyan animate-blink" />
-            <span className="truncate hidden sm:inline">SESSION: JESWIN-STANLY · ROLE: TECHNO-FUNCTIONAL CONSULTANT · ENV: PORTFOLIO-PROD</span>
-            <span className="truncate sm:hidden">JESWIN STANLY · CONSULTANT</span>
-          </div>
-          <span className="hidden sm:inline shrink-0 text-cyan">{timeStr} IST</span>
-        </div>
-      </div>
+
 
       {/* Main navbar */}
       <motion.nav
@@ -64,12 +54,9 @@ export default function Header({ theme, toggleTheme }) {
       >
         <div className="w-full max-w-screen-2xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between">
           {/* Logo */}
-          <a href="#top" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-gold to-gold-light flex items-center justify-center text-ink font-display font-bold text-sm">
-              JS
-            </div>
-            <span className="font-display font-semibold text-lg tracking-tight text-white">
-              Jeswin<span className="text-gold">.</span>
+          <a href="#top" className="flex items-center group">
+            <span className="font-display font-semibold text-lg tracking-tight text-white hover:text-gold transition-colors duration-300">
+              Jeswin Stanly A
             </span>
           </a>
 
